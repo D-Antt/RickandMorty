@@ -1,19 +1,28 @@
-.header-container {
+.header-container{
     background-color: var(--primary-bg);
-    height: 40px;
-    padding: 25px;
+    height:40px;
+    padding:25px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    color: var(--white);
+    justify-content: space-between;
+    color:var(--white);
 }
 
-.theme-button {
-    padding: 5px 10px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    background-color: var(--light-theme-btn);
+.header-dark{
+    background-color: black;
+    border-bottom:solid 1px gray;
+}
+
+.theme-button{
+    padding:5px 10px;
+    border-radius:8px;
+    border:none;
+    cursor:pointer;
+    background-color:  var(--light-theme-btn);
     color:var(--white);
     margin-left: 20px;
+}
+
+.theme-button-dark{
+    background-color: var(--dark-theme-btn);
 }

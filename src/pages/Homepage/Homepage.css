@@ -1,8 +1,12 @@
-
 .home-container{
     min-height: 100vh;
     padding: 30px 10px;
 }
+
+.home-dark{
+    background-color: black;
+    color:white;
+ }
 
 .home-container h1{
     text-align: center;
